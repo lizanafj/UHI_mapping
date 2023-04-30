@@ -5,9 +5,15 @@ This project is further detailed in the following scientific article:
 
   **reference**
 
-## Overview
 
-### Requirements to use the cookiecutter template:
+## Overview
+This project bla,bla,bla
+
+
+
+## Requirements to use UHI_mapping:
+
+### Python version
  - Python 2.7 or 3.5+
 
 ### Installing development requirements
@@ -16,7 +22,15 @@ This project is further detailed in the following scientific article:
     pip install -r requirements.txt
 
 
-### The directory structure
+## How to use **UHI_mapping**?
+
+First, collect required data for the analysis: 
+
+Second,
+
+Third, 
+
+## The directory structure
 ------------
 
 The directory structure of UHI_mapping project looks like this: 
