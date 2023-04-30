@@ -11,7 +11,7 @@ This project bla,bla,bla
 
 
 
-## Requirements to use UHI_mapping:
+## Requirements to use UHI_mapping
 
 ### Python version
  - Python 2.7 or 3.5+
@@ -37,8 +37,8 @@ The directory structure of UHI_mapping project looks like this:
 
 ```
 UHI_mapping/
-│
-├── LICENSE
+│ 
+├── LICENSE 				<- GPL-3.0 license
 ├── README.md
 ├── requirements.txt   			<- The requirements file for reproducing the analysis environment
 │          		
@@ -68,7 +68,7 @@ UHI_mapping/
 │	   ├─ ...
 │	├─ pre-process			<- Scripts to pre-procesing of raw data (cleaning and quality control)
 │	   ├─ ..
-│	├─ process			<- Scripts for analytics
+│	├─ process			<- Scripts to analytics
 │	   ├─ ...
 │	├─ visualisation		<- Scripts to create exploratory and results oriented visualizations
 │	   ├─ ...
