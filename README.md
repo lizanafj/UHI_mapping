@@ -1,35 +1,20 @@
 # UHI_mapping
-Atmospheric urban heat island mapping using citizen weather data
+_Atmospheric urban heat island mapping using citizen weather data._
 
-Esto es una prueba
+This project is further detailed in the following scientific article: 
 
-	$ pwd
-	/path/to/UHI_mapping/
-	
-	$ ls
-	|- notebooks/
-	   |- 00_NewProject.ipynb
-	   |- 01_DataExtraction_Netatmo.ipynb
-	   |- 02_
-	|- projectname/
-	   |- cityname1/
-		  |- data
-			|- 0_raw
-			    |- temp				
-			|- 1_structured
-			|- 2_filtered
-			|- 3_processed
-		  |- reports
-		  |- config.py
-	   |- cityname2/
-		...
-	|- references/
-	|- scripts/
-	   |- data
-	   |- process
-	   |- visualisation
-	|- README.md
-	|- LICENSE.md
+  **reference**
+
+## Overview
+
+### Requirements to use the cookiecutter template:
+ - Python 2.7 or 3.5+
+
+### Installing development requirements
+------------
+
+    pip install -r requirements.txt
+
 
 ### The directory structure
 ------------
@@ -37,48 +22,43 @@ Esto es una prueba
 The directory structure of UHI_mapping project looks like this: 
 
 ```
+UHI_mapping/
+│
 ├── LICENSE
-├── Makefile           <- Makefile with commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+├── README.md
+├── requirements.txt   			<- The requirements file for reproducing the analysis environment
+│          		
+├── notebooks				<- Jupyter notebooks to guide the workflow
+│   ├─ 00_NewProject.ipynb      	
+│   ├─ 01_DataExtraction_Netatmo.ipynb        		
+│   ├─ 02_      		
+│             		
+├── projectname/			<- Database divided by project (city)
+│   ├─ cityname1/
+│   	├─ data/
+│	   ├─ 0_raw
+│	      ├─ temp				
+│	   ├─ 1_structured
+│	   ├─ 2_filtered
+│	   ├─ 3_processed    
+│   	├─ reports/
+│   	├─ config.py                    		
+│   ├─ cityname2/
+│	├─...
 │
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+├── references         			<- manuals and all other explanatory materials.          
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── scripts/				<- Source code for use in this project
+│	├─ data				<- Scripts to download or generate data
+│	   ├─ script1.py
+│	   ├─ ...
+│	├─ pre-process			<- Scripts to pre-procesing of raw data (cleaning and quality control)
+│	   ├─ ..
+│	├─ process			<- Scripts for analytics
+│	   ├─ ...
+│	├─ visualisation		<- Scripts to create exploratory and results oriented visualizations
+│	   ├─ ...
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-├── src                <- Source code for use in this project.
-│   ├── __init__.py    <- Makes src a Python module
-│   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   ├── features       <- Scripts to turn raw data into features for modeling
-│   │   └── build_features.py
-│   │
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
-│
-└── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+└──
 ```
