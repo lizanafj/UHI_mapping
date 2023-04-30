@@ -66,9 +66,9 @@ UHI_mapping/
 │	├─ data				<- Scripts to download or generate data
 │	   ├─ script1.py
 │	   ├─ ...
-│	├─ pre-process			<- Scripts to pre-procesing of raw data (cleaning and quality control)
+│	├─ pre-process			<- Scripts for cleaning and quality control of raw data
 │	   ├─ ..
-│	├─ process			<- Scripts to analytics
+│	├─ process			<- Scripts for analytics
 │	   ├─ ...
 │	├─ visualisation		<- Scripts to create exploratory and results oriented visualizations
 │	   ├─ ...
