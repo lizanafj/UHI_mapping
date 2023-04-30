@@ -31,6 +31,12 @@ Esto es una prueba
 	|- README.md
 	|- LICENSE.md
 
+### The directory structure
+------------
+
+The directory structure of UHI_mapping project looks like this: 
+
+```
 ├── LICENSE
 ├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
@@ -56,7 +62,7 @@ Esto es una prueba
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
-├── setup.py           <- Make this project pip installable with `pip install -e`
+├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
 ├── src                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
 │   │
@@ -75,3 +81,4 @@ Esto es una prueba
 │       └── visualize.py
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+```
