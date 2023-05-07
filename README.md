@@ -27,14 +27,12 @@ It comprises a set of data pre-processing and analytic techniques to ensure citi
 
 The workflow is divided into different Jypyter Notebooks **see /notebooks** to guide the workflow.
 
-- **Notebook ** 00_NewProject** - Define and create the new project directory to save and process data. 
-
-- Notebook 01_DataExtraction_Netatmo - 
-02_DataPre-processing
-03_DataAnalytics_Preparatory
-04_DataAnalytics_HourlyDiagnosis
-05_DataAnalytics_AnnualDiagnosis
-
+- **Notebook 00_NewProject** - Define and create the new project directory to save and process data. 
+- **Notebook 01_DataExtraction_Netatmo** - Extract weather data (*.csv) from Netatmo 
+- **Notebook 02_DataPre-processing** - Different cleaning and quality control techniques to eliminate outliers
+- **Notebook 03_DataAnalytics_Preparatory** - 1/3 data analysis: calculate rural temperature profile (baseline) and Cooling Degree Hours (CDHs)
+- **Notebook 04_DataAnalytics_HourlyDiagnosis** - 2/3 data analysis: calculate hourly UHI intensity 
+- **Notebook 05_DataAnalytics_AnnualDiagnosis** - 3/3 data analysis: identificaiton of persistent hot spots using CDHs
 
 
 ## The directory structure
@@ -52,7 +50,10 @@ UHI_mapping/
 ├── notebooks				<- Jupyter notebooks to guide the workflow
 │   ├─ 00_NewProject.ipynb      	
 │   ├─ 01_DataExtraction_Netatmo.ipynb        		
-│   ├─ 02_      		
+│   ├─ 02_DataPre-processing.ipynb 
+│   ├─ 03_DataAnalytics_Preparatory.ipynb 
+│   ├─ 04_DataAnalytics_HourlyDiagnosis.ipynb 
+│   ├─ 05_DataAnalytics_AnnualDiagnosis.ipynb     		
 │             		
 ├── projectname/			<- Database divided by project (city)
 │   ├─ cityname1/
@@ -63,6 +64,7 @@ UHI_mapping/
 │	   ├─ 2_filtered
 │	   ├─ 3_processed    
 │   	├─ reports/
+│	   ├─ figures/  
 │   	├─ config.py                    		
 │   ├─ cityname2/
 │	├─...
@@ -70,16 +72,18 @@ UHI_mapping/
 ├── references         			<- manuals and all other explanatory materials.          
 │
 ├── scripts/				<- Source code for use in this project
-│	├─ data				<- Scripts to download or generate data
-│	   ├─ script1.py
-│	   ├─ ...
-│	├─ pre-process			<- Scripts for cleaning and quality control of raw data
-│	   ├─ ..
-│	├─ process			<- Scripts for analytics
-│	   ├─ ...
-│	├─ visualisation		<- Scripts to create exploratory and results oriented visualizations
-│	   ├─ ...
-│
+│	├─ data/			<- Scripts to download or generate data
+│	   ├─ functions/
+│	   ├─ A1_getstationsdata_netatmo.py
+│	   ├─ A2_getmeasure_netatmo.py
+│	   ├─ projectdata.json
+│	├─ process/			<- Scripts for pre-processing (cleaning and quality control) and processing (analytics)
+│	   ├─ functions/
+│	   ├─ B_DataPre-processing
+│	   ├─ C1_DataAnalytics_1
+│	   ├─ projectdata_p.json
+│	├─ visualisation/		<- Scripts to create exploratory and results oriented visualizations
+│	   ├─ functions/
 │
 └──
 ```
