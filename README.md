@@ -14,8 +14,8 @@ It comprises a set of data pre-processing and analytic techniques to ensure citi
 
 ## Versions
 
-_v0.1 BETA - First version of the project_ 	- 01/05/2023
-_v0.2 comming soon..._				- 
+	-_v0.1 BETA - First version of the project_ 	- 01/05/2023
+	-_v0.2 comming soon..._				- 
 
 ## Requirements to use UHI_mapping
 
