@@ -1,4 +1,4 @@
-# UHI_mapping
+# UHI_mapping [v0.1 BETA]
 _Atmospheric urban heat island mapping using citizen weather data._
 
 This project is further detailed in the following scientific article: 
@@ -11,6 +11,11 @@ This project is an open-source procedure to extract, filter and analysis urban c
 It comprises a set of data pre-processing and analytic techniques to ensure citizen weather data meet overall quality goals and perform standardised city diagnosis.
 
 ![uhi](https://github.com/lizanafj/UHI_mapping/blob/main/references/UHI_London_hottestdays_1.gif)
+
+## Versions
+
+_v0.1 BETA - First version of the project_ 	- 01/05/2023
+_v0.2 comming soon..._				- 
 
 ## Requirements to use UHI_mapping
 
