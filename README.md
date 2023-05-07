@@ -32,7 +32,7 @@ The workflow is divided into different Jypyter Notebooks **see /notebooks** to g
 - **Notebook 02_DataPre-processing** - Different cleaning and quality control techniques to eliminate outliers
 - **Notebook 03_DataAnalytics_Preparatory** - 1/3 data analysis: calculate rural temperature profile (baseline) and Cooling Degree Hours (CDHs)
 - **Notebook 04_DataAnalytics_HourlyDiagnosis** - 2/3 data analysis: calculate hourly UHI intensity 
-- **Notebook 05_DataAnalytics_AnnualDiagnosis** - 3/3 data analysis: identificaiton of persistent hot spots using CDHs
+- **Notebook 05_DataAnalytics_AnnualDiagnosis** - 3/3 data analysis: identification of persistent hot spots using CDHs
 
 
 ## The directory structure
