@@ -7,8 +7,8 @@ This project is further detailed in the following scientific article:
 
 
 ## Overview
-This project bla,bla,bla
-
+This project is an open-source procedure to extract, filter and analysis urban climate at a very high spatio-temporal resolution using crowdsourced citizen weather data from platforms such us Netatmo or Wunderground.
+It comprises a set of data pre-processing and analytic techniques to ensure citizen weather data meet overall quality goals and perform standardised city diagnosis.
 
 ![uhi](https://github.com/lizanafj/UHI_mapping/blob/main/references/UHI_London_hottestdays_1.gif)
 
