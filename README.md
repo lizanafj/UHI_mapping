@@ -15,7 +15,7 @@ It comprises a set of data pre-processing and analytic techniques to ensure citi
 ## Requirements to use UHI_mapping
 
 ### Python version
- - Python 2.7 or 3.5+
+ - Python 3.8+
 
 ### Installing development requirements
 ------------
@@ -25,11 +25,17 @@ It comprises a set of data pre-processing and analytic techniques to ensure citi
 
 ## How to use **UHI_mapping**?
 
-First, collect required data for the analysis: 
+The workflow is divided into different Jypyter Notebooks **see /notebooks** to guide the workflow.
 
-Second,
+- **Notebook ** 00_NewProject** - Define and create the new project directory to save and process data. 
 
-Third, 
+- Notebook 01_DataExtraction_Netatmo - 
+02_DataPre-processing
+03_DataAnalytics_Preparatory
+04_DataAnalytics_HourlyDiagnosis
+05_DataAnalytics_AnnualDiagnosis
+
+
 
 ## The directory structure
 ------------
