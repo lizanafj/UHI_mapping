@@ -10,7 +10,7 @@ This project is further detailed in the following scientific article:
 This project bla,bla,bla
 
 
-![hippo](https://github.com/lizanafj/UHI_mapping/references/hippo.gif)
+![hippo](https://github.com/lizanafj/UHI_mapping/blob/master/references/hippo.gif)
 
 ## Requirements to use UHI_mapping
 
