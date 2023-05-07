@@ -1,5 +1,5 @@
 # UHI_mapping [v0.1 BETA]
-_Atmospheric urban heat island mapping using citizen weather data._
+_Atmospheric urban heat island mapping using citizen weather data_
 
 This project is further detailed in the following scientific article: 
 
