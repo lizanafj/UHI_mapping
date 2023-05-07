@@ -10,7 +10,7 @@ This project is further detailed in the following scientific article:
 This project bla,bla,bla
 
 
-![hippo](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
+![hippo](https://github.com/lizanafj/UHI_mapping/references/UHI_London_hottestdays_1.gif)
 
 ## Requirements to use UHI_mapping
 
