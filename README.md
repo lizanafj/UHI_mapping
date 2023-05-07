@@ -25,7 +25,7 @@ It comprises a set of data pre-processing and analytic techniques to ensure citi
 
 ## How to use **UHI_mapping**?
 
-The workflow is divided into different Jypyter Notebooks **see /notebooks** to guide the workflow.
+The approach is divided into different Jypyter Notebooks (**see UHI_mapping/notebooks**) to guide the workflow.
 
 - **Notebook 00_NewProject** - Define and create the new project directory to save and process data. 
 - **Notebook 01_DataExtraction_Netatmo** - Extract weather data (*.csv) from Netatmo 
