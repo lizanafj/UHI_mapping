@@ -84,8 +84,8 @@ UHI_mapping/
 │	   ├─ projectdata.json
 │	├─ process/			<- Scripts for pre-processing (cleaning and quality control) and processing (analytics)
 │	   ├─ functions/
-│	   ├─ B_DataPre-processing
-│	   ├─ C1_DataAnalytics_1
+│	   ├─ B_DataPre-processing.py
+│	   ├─ C1_DataAnalytics_1.py
 │	   ├─ projectdata_p.json
 │	├─ visualisation/		<- Scripts to create exploratory and results oriented visualizations
 │	   ├─ functions/
